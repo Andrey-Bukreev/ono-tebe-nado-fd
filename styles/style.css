@@ -25,12 +25,6 @@
   list-style: none;
 }
 
-
-.header__menu-link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .link-active {
   text-decoration:none;
 }
@@ -40,7 +34,7 @@
   height: 105px;
 }
 
-.address {
+.address-header {
   display: flex;
   max-width: 240px;
   justify-self: end;
@@ -50,6 +44,12 @@
   font-size: 18px;
   line-height: 24px;
 }
+
+.address-header-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* Основной контент */
 
 /* Первая секция */
@@ -277,9 +277,23 @@
   padding: 0 50px 84px;
 }
 
-.address-block__footer {
+.address-footer {
+  display: flex;
+  max-width: 240px;
+  justify-self: end;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
   justify-self: start;
 }
+
+.address-footer-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 
 .footer__menu-list {
   display: flex;
