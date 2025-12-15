@@ -45,7 +45,7 @@
   line-height: 24px;
 }
 
-.address-header-link {
+.address-header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -289,7 +289,7 @@
   justify-self: start;
 }
 
-.address-footer-link {
+.address-footer__link {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
